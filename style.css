@@ -20,10 +20,6 @@ body {
     font-size: 24px;
     color: #f9faf8;
 }
-.tag{
-    display: flex;
-    align-items: flex-end;
-}
 .contact{
     background: #E5E7EB; 
     display: flex;
@@ -42,19 +38,12 @@ body {
     max-width: 200px;
     border-radius: 10px;
 }
-
-.start {
-    display: flex;
-    max-width: 600px;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
 .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px;
+    color: #E5E7EB;
 }
 
 a{
@@ -73,12 +62,7 @@ ul{
 .card{
     width: 200px
 }
- .image{
-    display: flex;
-    
-    max-width: 200px;
- }
- .pets{ 
+.pets{ 
     padding: 24px;
     display: flex;
     gap: 24px;
@@ -87,6 +71,65 @@ ul{
  .content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
  }
+
+ .signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+
+ }
+ .data {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+    padding: 24px;
+    background: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+ }
+ .signed {
+    padding: 4px;
+    width: 100px;
+    background: none;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    color: #f9faf8;
+ }
+ .sign{
+    padding: 4px;
+    width: 100px;
+    background: #3882f6;
+    border-radius: 5px;
+    border-color: transparent;
+    color: #f9faf8;
+ }
+ .start{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+ }
+.container{
+     display: flex;
+     align-items: center;
+     max-width: 900px;
+     gap: 48px;
+     color: #E5E7EB;
+}
+
+.container img{
+    max-width: 350px;
+    border-radius: 50%;
+}
+
+.text{
+    max-width:800px;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
